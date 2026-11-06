@@ -2,6 +2,8 @@
 
 > Página web desenvolvida como parte da atividade acadêmica da disciplina de **Web Development I** (Flexbox) no Instituto Federal do Ceará (IFCE) - Campus Maranguape.
 
+[Repositório](https://github.com/llMat1/Campeonato) | [Página](https://llmat1.github.io/Projeto1/)
+
 ---
 
 ## 👥 Autores
