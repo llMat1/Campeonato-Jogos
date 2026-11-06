@@ -1,0 +1,199 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    color: white;
+    background-color: rgb(39, 24, 107);
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(22, 117, 22);
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 5px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #e9d9d9;
+    font-weight: bold;
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(15, 105, 75);
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1100px;
+    border-radius: 8px;
+}
+
+.texto-apresentacao p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+
+apresentacao h1 {
+    background-color: green
+}
+
+.apresentacao p {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+
+.apresentacao img {
+    max-width: 400px;
+    width: 50%;
+    height: auto;
+    border-radius: 6px;
+}
+
+
+#destaques {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px;
+    margin: 20px 0px;
+}
+
+.card {
+    color: white;
+    background-color: rgb(139, 21, 134);
+    padding: 15px;
+    margin: 0px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.card:first-child {
+    position: relative;
+}
+
+.etiqueta-destaque {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+#programacao {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tabela {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th, td {
+    border: 2px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e2e2e2;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.voltar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(56, 219, 56);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.voltar-topo:hover {
+    color: lightcoral;
+}
